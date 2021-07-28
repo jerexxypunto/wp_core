@@ -101,8 +101,8 @@ input[type="checkbox"]:focus,
 input[type="radio"]:focus,
 select:focus,
 textarea:focus {
-	border-color: #0073AA;
-	box-shadow: 0 0 0 1px #0073AA;
+	border-color: #99CC00;
+	box-shadow: 0 0 0 1px #99CC00;
 	/* Only visible in Windows High Contrast mode */
 	outline: 2px solid transparent;
 }
@@ -329,13 +329,13 @@ input[type="radio"].disabled:checked:before {
 }
 
 .wp-core-ui select:hover {
-	color: #0073AA;
+	color: #99CC00;
 }
 
 .wp-core-ui select:focus {
-	border-color: #0073AA;
+	border-color: #99CC00;
 	color: #0a4b78;
-	box-shadow: 0 0 0 1px #0073AA;
+	box-shadow: 0 0 0 1px #99CC00;
 }
 
 .wp-core-ui select:active {
@@ -370,7 +370,7 @@ input[type="radio"].disabled:checked:before {
 }
 
 .wp-core-ui select:hover::-ms-value {
-	color: #0073AA;
+	color: #99CC00;
 }
 
 .wp-core-ui select:focus::-ms-value {
@@ -710,7 +710,7 @@ ul#add-to-blog-users {
 /* Colors for the tags autocomplete. */
 .wp-tags-autocomplete .ui-state-focus,
 .wp-tags-autocomplete [aria-selected="true"] {
-	background-color: #0073AA;
+	background-color: #99CC00;
 	color: #fff;
 	/* Only visible in Windows High Contrast mode */
 	outline: 2px solid transparent;
